@@ -33,7 +33,7 @@ public class SearchingMain {
 		}
 		return -1;
 	}
-	
+	//BINARY SEARCH WITH RECURSION
 	public static int recBinarySearch(int[] arr, int left, int right, int key) {
 		if(right < left)
 			return -1;
