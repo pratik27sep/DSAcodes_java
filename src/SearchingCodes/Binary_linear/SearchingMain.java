@@ -51,10 +51,12 @@ public class SearchingMain {
 		Scanner sc = new Scanner(System.in);
 		int[] arr = {88, 33, 66, 99, 44, 77, 22, 55, 11};
 		Arrays.sort(arr);
-		
+		System.out.println(Arrays.toString(arr));
+
+
 		System.out.print("Enter key to search: ");
 		int key = sc.nextInt();
-		
+
 		// can work on sorted or non-sorted array
 		int index = linearSearch(arr, key);
 		if(index != -1)
