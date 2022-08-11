@@ -6,7 +6,7 @@
 * Author: Pratik Soundarkar <psoundarkar@gmail.com>
 *******************************************************************/
 
-package SearchingCodes.Binary_linear;
+package dsa_module.serching_code;
 
 import java.util.Arrays;
 import java.util.Scanner;
